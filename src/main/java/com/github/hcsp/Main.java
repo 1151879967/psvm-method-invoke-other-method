@@ -3,11 +3,12 @@ package com.github.hcsp;
 public class Main {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         System.out.println(getMessage());
     }
 
-    private static String getMessage() {
+    public static String getMessage() {
     return "hello";
     }
 
